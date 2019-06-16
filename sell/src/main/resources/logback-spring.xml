@@ -31,7 +31,7 @@
         <!-- 滚动策略 TimeBasedRollingPolicy按照时间滚动-->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!--路径-->
-            <fileNamePattern>F://log//info.%d.log</fileNamePattern>
+            <fileNamePattern>D://log//info.%d.log</fileNamePattern>
         </rollingPolicy>
     </appender>
 
@@ -49,7 +49,7 @@
         <!-- 滚动策略 TimeBasedRollingPolicy按照时间滚动-->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!--路径-->
-            <fileNamePattern>F://log//error.%d.log</fileNamePattern>
+            <fileNamePattern>D://log//error.%d.log</fileNamePattern>
         </rollingPolicy>
     </appender>
 
