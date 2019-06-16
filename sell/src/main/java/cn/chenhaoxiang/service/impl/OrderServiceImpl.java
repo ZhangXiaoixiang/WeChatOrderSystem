@@ -11,10 +11,9 @@ import cn.chenhaoxiang.dto.OrderDTO;
 import cn.chenhaoxiang.enums.OrderStausEnum;
 import cn.chenhaoxiang.enums.PayStatusEnum;
 import cn.chenhaoxiang.enums.ResultEnum;
-import cn.chenhaoxiang.exception.ResponseBankException;
 import cn.chenhaoxiang.exception.SellException;
 import cn.chenhaoxiang.service.*;
-import cn.chenhaoxiang.utils.KeyUtil;
+import cn.chenhaoxiang.util.KeyUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,7 +26,6 @@ import org.springframework.util.CollectionUtils;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 

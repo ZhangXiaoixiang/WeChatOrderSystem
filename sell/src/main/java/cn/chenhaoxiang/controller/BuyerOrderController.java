@@ -7,7 +7,7 @@ import cn.chenhaoxiang.exception.SellException;
 import cn.chenhaoxiang.form.OrderForm;
 import cn.chenhaoxiang.service.BuyerService;
 import cn.chenhaoxiang.service.OrderService;
-import cn.chenhaoxiang.utils.ResultVOUtil;
+import cn.chenhaoxiang.util.ResultVOUtil;
 import cn.chenhaoxiang.vo.ResultVO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -3,7 +3,7 @@ package cn.chenhaoxiang.service.impl;
 import cn.chenhaoxiang.exception.SellException;
 import cn.chenhaoxiang.service.RedisLock;
 import cn.chenhaoxiang.service.SeckillService;
-import cn.chenhaoxiang.utils.KeyUtil;
+import cn.chenhaoxiang.util.KeyUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

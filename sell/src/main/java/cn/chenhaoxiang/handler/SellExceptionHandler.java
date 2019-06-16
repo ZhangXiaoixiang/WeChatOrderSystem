@@ -4,7 +4,7 @@ import cn.chenhaoxiang.config.ProjectUrlConfig;
 import cn.chenhaoxiang.exception.ResponseBankException;
 import cn.chenhaoxiang.exception.SellAuthorizeException;
 import cn.chenhaoxiang.exception.SellException;
-import cn.chenhaoxiang.utils.ResultVOUtil;
+import cn.chenhaoxiang.util.ResultVOUtil;
 import cn.chenhaoxiang.vo.ResultVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

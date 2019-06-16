@@ -2,17 +2,14 @@ package cn.chenhaoxiang.controller;
 
 import cn.chenhaoxiang.dataObject.ProductCategory;
 import cn.chenhaoxiang.dataObject.ProductInfo;
-import cn.chenhaoxiang.dto.OrderDTO;
 import cn.chenhaoxiang.enums.ResultEnum;
 import cn.chenhaoxiang.exception.SellException;
 import cn.chenhaoxiang.form.ProductForm;
 import cn.chenhaoxiang.service.ProductCategoryService;
 import cn.chenhaoxiang.service.ProductInfoService;
-import cn.chenhaoxiang.utils.KeyUtil;
+import cn.chenhaoxiang.util.KeyUtil;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cache.annotation.CacheEvict;
-import org.springframework.cache.annotation.CachePut;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Controller;

@@ -1,7 +1,7 @@
 package cn.chenhaoxiang.dataObject;
 
 import cn.chenhaoxiang.enums.ProductStatusEnum;
-import cn.chenhaoxiang.utils.EnumUtil;
+import cn.chenhaoxiang.util.EnumUtil;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import org.hibernate.annotations.DynamicUpdate;

@@ -1,4 +1,4 @@
-package cn.chenhaoxiang.utils;
+package cn.chenhaoxiang.util;
 
 import java.util.Random;
 

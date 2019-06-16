@@ -3,16 +3,13 @@ package cn.chenhaoxiang.dto;
 import cn.chenhaoxiang.dataObject.OrderDetail;
 import cn.chenhaoxiang.enums.OrderStausEnum;
 import cn.chenhaoxiang.enums.PayStatusEnum;
-import cn.chenhaoxiang.utils.EnumUtil;
-import cn.chenhaoxiang.utils.serializer.Date2LongSerializer;
+import cn.chenhaoxiang.util.EnumUtil;
+import cn.chenhaoxiang.util.serializer.Date2LongSerializer;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import lombok.Data;
 
-import javax.persistence.Id;
 import java.math.BigDecimal;
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 

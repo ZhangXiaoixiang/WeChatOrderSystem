@@ -1,4 +1,4 @@
-package cn.chenhaoxiang.utils.serializer;
+package cn.chenhaoxiang.util.serializer;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.core.JsonProcessingException;

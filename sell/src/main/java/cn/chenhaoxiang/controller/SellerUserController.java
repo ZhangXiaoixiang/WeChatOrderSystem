@@ -5,16 +5,14 @@ import cn.chenhaoxiang.constans.CookieConstant;
 import cn.chenhaoxiang.constans.RedisConstans;
 import cn.chenhaoxiang.dataObject.SellerInfo;
 import cn.chenhaoxiang.enums.ResultEnum;
-import cn.chenhaoxiang.exception.SellException;
 import cn.chenhaoxiang.service.SellerService;
-import cn.chenhaoxiang.utils.CookieUtil;
+import cn.chenhaoxiang.util.CookieUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.Cookie;

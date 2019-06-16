@@ -1,4 +1,4 @@
-package cn.chenhaoxiang.utils;
+package cn.chenhaoxiang.util;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

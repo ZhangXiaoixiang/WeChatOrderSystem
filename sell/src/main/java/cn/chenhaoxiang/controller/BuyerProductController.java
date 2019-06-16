@@ -4,7 +4,7 @@ import cn.chenhaoxiang.dataObject.ProductCategory;
 import cn.chenhaoxiang.dataObject.ProductInfo;
 import cn.chenhaoxiang.service.ProductCategoryService;
 import cn.chenhaoxiang.service.ProductInfoService;
-import cn.chenhaoxiang.utils.ResultVOUtil;
+import cn.chenhaoxiang.util.ResultVOUtil;
 import cn.chenhaoxiang.vo.ProductInfoVO;
 import cn.chenhaoxiang.vo.ProductVO;
 import cn.chenhaoxiang.vo.ResultVO;
@@ -17,7 +17,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 

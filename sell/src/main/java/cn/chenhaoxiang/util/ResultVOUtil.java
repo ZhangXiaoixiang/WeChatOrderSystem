@@ -1,4 +1,4 @@
-package cn.chenhaoxiang.utils;
+package cn.chenhaoxiang.util;
 
 import cn.chenhaoxiang.vo.ResultVO;
 
