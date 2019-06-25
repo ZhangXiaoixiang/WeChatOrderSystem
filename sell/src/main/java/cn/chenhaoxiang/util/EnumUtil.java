@@ -3,26 +3,26 @@ package cn.chenhaoxiang.util;
 import cn.chenhaoxiang.enums.CodeEnum;
 
 /**
- * Created with IntelliJ IDEA.
- * User: 陈浩翔.
- * Date: 2018/1/21.
- * Time: 下午 7:48.
- * Explain: 枚举工具类
+ * EnumUtil:枚举工具类
+ * @author zhangxiaoxiang
+ * @date 2019/6/16
  */
 public class EnumUtil {
     /**
      * 通过code和枚举类型获取枚举
-     * @param code code
+     *
+     * @param code      code
      * @param enumClass 枚举类型class
-     * @param <T>  枚举类型
+     * @param <T>       枚举类型
      * @return
      */
-    public static <T extends CodeEnum> T getByCode(Integer code, Class<T> enumClass){
-        for(T each: enumClass.getEnumConstants()){//遍历枚举类型
-            if(each.getCode().equals(code)){
+    public static <T extends CodeEnum> T getByCode(Integer code, Class<T> enumClass) {
+        //遍历枚举类型
+        for (T each : enumClass.getEnumConstants()) {
+            if (each.getCode().equals(code)) {
                 return each;
             }
         }
-        return  null;
+        return null;
     }
 }
